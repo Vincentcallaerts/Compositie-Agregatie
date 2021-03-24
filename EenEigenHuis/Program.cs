@@ -14,7 +14,7 @@ namespace EenEigenHuis
             Huis huis = new Huis();
             Gang gang = new Gang(5);
             huis.AddKamer(gang);
-            Living living = new Living(4, true);
+            Living living = new Living(40, false);
             huis.AddKamer(living);
             huis.TotaalPrijs();
             Console.ReadLine();
