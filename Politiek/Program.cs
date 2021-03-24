@@ -30,6 +30,9 @@ namespace Politiek
             putin.JaarVerder();
             land.MaakRegering(putin, test);
             putin.JaarVerder();
+            test[0].Naam = "luddy";
+            test[1].Naam = "wenen";
+            land.MaakRegering(putin, test);
             land.MaakRegering(putin, test);
 
         }
